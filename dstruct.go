@@ -54,7 +54,7 @@ type BlockHeader struct {
 	Nonce        uint   `json:"nonce"`
 	OrphanStatus bool   `json:"orphan_status"`
 	PrevHash     string `json:"prev_hash"`
-	Reward       uint   `json:"reward "`
+	Reward       uint   `json:"reward"`
 	Timestamp    uint   `json:"timestamp"`
 }
 
